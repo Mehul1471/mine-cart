@@ -13,7 +13,7 @@ const CartSlice = createSlice({
       state.product = state.product;
     },
     addProduct: (state, action) => {
-      state.product = [...state.products, action.payload];
+      state.product = [...state.product, action.payload];
     },
     deleteProduct: (state, action) => {
       let newData = state.product?.filter((el) => el?.id !== action.payload);
@@ -24,4 +24,4 @@ const CartSlice = createSlice({
 
 export const { fetchProducts, addProduct, deleteProduct } = CartSlice.actions;
 
-export default CartSlice;
+export default CartSlice.reducer;
