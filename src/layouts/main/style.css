@@ -1,0 +1,40 @@
+/* ===== navbar ===== */
+.navbar_container {
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 25px;
+  border-bottom: 2px solid #95b7ed;
+}
+
+.nav_logo {
+  width: 150px;
+  object-fit: contain;
+}
+
+.menu_container {
+  align-items: center;
+  gap: 10px;
+}
+
+.menu_item {
+  text-decoration: none;
+  color: #292929;
+}
+
+.menu_item:hover {
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* ===== main layout ===== */
+.main_outer_container {
+  height: 100vh;
+  overflow: hidden;
+}
+
+.main_container {
+  display: flex;
+  flex: 1;
+  overflow: auto;
+  padding: 0 25px;
+}
