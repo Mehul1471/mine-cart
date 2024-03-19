@@ -36,6 +36,6 @@
 
 .main_inner_container {
   overflow: auto;
-  padding: 0 25px;
+  padding: 25px;
   flex: 1;
 }
